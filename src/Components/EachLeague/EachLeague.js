@@ -22,7 +22,6 @@ import ladyTeam from "../../Images/ladyTeam.jpg";
 const EachLeague = () => {
   const { eachId } = useParams();
   const [league, setLeague] = useState({});
-  const [image, setImage] = useState(false);
 
   useEffect(() => {
     const url = `https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${eachId}`;
