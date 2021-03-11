@@ -1,0 +1,18 @@
+.hero-part {
+  background: linear-gradient(180deg, #314e52, #222222b3),
+    url(../../Images/heroPicture.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 120px 0;
+  text-align: center;
+}
+.hero-part h1 {
+  font-weight: 1000;
+  color: #f4f9f9;
+  font-size: 4em;
+}
+.hero-body {
+  padding-top: 80px;
+  background: #edeef7;
+}

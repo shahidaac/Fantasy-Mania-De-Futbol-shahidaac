@@ -1,0 +1,23 @@
+
+.card {
+  margin-bottom: 30px;
+  text-align: center;
+  background-color:#f4f9f9;
+}
+.card-title {
+  font-weight: 800;
+}
+.explore-btn {
+  background:#00917c;
+  border: none;
+}
+.explore-btn a {
+  color: #26001b;
+}
+img.card-img-top {
+  width: 60%;
+  margin: 0 auto;
+}
+.explore-btn a span {
+  padding-left: 15px;
+}
