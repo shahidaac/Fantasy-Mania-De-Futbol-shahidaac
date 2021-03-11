@@ -1,6 +1,6 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './Components/Header/Header';
 import EachLeague from './Components/EachLeague/EachLeague';
 import NotFoundError from "./Components/NotFoundError/NotFoundError";
