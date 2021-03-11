@@ -36,11 +36,11 @@ const EachLeague = () => {
     let image;
     if (gender === "Male") {
       image = (
-        <img className="img-fluid" src={gentsTeam} alt="team photo Men" />
+        <img className="img-fluid" src={gentsTeam} alt="" />
       );
     } else if (gender === "Female") {
       image = (
-        <img className="img-fluid" src={ladyTeam} alt="team photo Women" />
+        <img className="img-fluid" src={ladyTeam} alt="" />
       );
     }
     return image;
